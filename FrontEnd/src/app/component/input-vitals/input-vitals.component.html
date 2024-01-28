@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="card">
+    <div class="txt">
+      Input Vitals
+    </div>
+    <div class="body">
+      <form>
+        <div class="form-group">
+          <input class="form-control" [(ngModel)]="ptID" type="text" id="ptID" name="ptID" placeholder="Patient ID" required>
+        </div>
+        <div class="form-group">
+          <input class="form-control" [(ngModel)]="weight" type="text" id="weight" name="weight" placeholder="Weight">
+        </div>
+        <div class="form-group">
+          <input class="form-control" [(ngModel)]="bp" type="text" id="bp" name="bp" placeholder="Blood Pressure">
+        </div>
+        <div class="form-group">
+          <input class="form-control" [(ngModel)]="pulse" type="text" id="pulse" name="pulse" placeholder="Pulse">
+        </div>
+        <div class="form-group">
+          <input class="form-control" [(ngModel)]="oxygenSaturation" type="text" id="oxygenSaturation" name="oxygenSaturation" placeholder="Oxygen Saturation">
+        </div>
+          <button class="btn" type="submit" (click)="save()">SAVE</button>
+          <button class="btn" type="submit" (click)="gotoHome()">BACK</button>
+      </form>
+    </div>
+  </div>
+</div>

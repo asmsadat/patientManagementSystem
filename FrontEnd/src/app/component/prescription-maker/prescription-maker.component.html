@@ -1,0 +1,63 @@
+<div class="container">
+  <div class="header">Prescription Maker</div>
+  <input type="text" placeholder="Patient ID" class="input">
+  <button (click)="gotoHistory()" class="historyBtn">
+    History
+  </button>
+
+  <form
+  [formGroup]="form"
+  *ngIf="showForm"
+  class="body">
+
+    <div formArrayName="patientComplain" class="complainBody">
+      <div *ngFor="let control of patientComplain.controls; let i = index">
+        <ng-container >
+          <div>
+            <input formControlName="complain" type="text" placeholder="Patient Complain" [(ngModel)]="complain">
+          </div>
+          <div>
+            <button class="btn" (click)="addComplain()">ADD</button>
+            <button class="btn" (click)="deleteComplain(i)">DELETE</button>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+
+    <div formArrayName="test" class="testBody">
+      <div *ngFor="let control of test.controls; let i = index">
+        <ng-container >
+          <div>
+            <input formControlName="testName" type="text" placeholder="Test" [(ngModel)]="testName">
+          </div>
+          <div>
+            <button class="btn" (click)="addTest()">ADD</button>
+            <button class="btn" (click)="deleteTest(i)">DELETE</button>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+
+    <div formArrayName="medicine" class="medicineBody">
+      <div *ngFor="let control of medicine.controls; let i = index">
+        <ng-container [formGroupName]="i">
+          <div class="medicineName">
+            <input formControlName="medicineName" type="text" placeholder="Medicine Name" [(ngModel)]="medicineName">
+          </div>
+          <div class="medicineItem">
+            <input formControlName="morning" type="text" placeholder="Morning" [(ngModel)]="morning">
+            <input formControlName="noon" type="text" placeholder="Noon" [(ngModel)]="noon">
+            <input formControlName="night" type="text" placeholder="Night" [(ngModel)]="night">
+            <input formControlName="amount" type="text" placeholder="Amount" [(ngModel)]="amount">
+          </div>
+          <div>
+            <button class="btn" (click)="addMedicine()">ADD</button>
+            <button class="btn" (click)="deleteMedicine(i)">DELETE</button>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+    <button class="btn" type="submit" (click)="save()">SAVE</button>
+  </form>
+</div>
+

@@ -1,0 +1,60 @@
+.container{
+  text-align: center;
+}
+
+.heading{
+  font-size: 40px;
+  color: #ff6666;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.content{
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #ff6666;
+  width: 200px;
+  margin: auto;
+}
+
+.txt{
+  color: #ff6666;
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.cserial{
+  color: white;
+  background-color: #ff6666;
+  margin: 10px;
+  font-size: 100px;
+  border-radius: 10px;
+}
+
+.serial{
+  color: white;
+  background-color: #ff6666;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.btn {
+  background-color: #ff6666;
+  color: white;
+  font-size: 20px;
+  margin-top: 50px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  width: 100px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #ff6666;
+  border: 1px solid #ff6666;
+}
