@@ -1,0 +1,166 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"projectmms"},
+{"type":"table","name":"bloodgroup","database":"projectmms","data":
+[
+{"bg_id":"1","bg_name":"O+"},
+{"bg_id":"2","bg_name":"O-"},
+{"bg_id":"3","bg_name":"AB+"},
+{"bg_id":"4","bg_name":"AB-"},
+{"bg_id":"5","bg_name":"A+"},
+{"bg_id":"6","bg_name":"A-"},
+{"bg_id":"7","bg_name":"B+"},
+{"bg_id":"8","bg_name":"B-"}
+]
+}
+,{"type":"table","name":"booking","database":"projectmms","data":
+[
+{"booking_id":"13","dname":"Md. Azharul Islam","userid":"1007","dcontact":"01521470368","expertise":"Cardiologist","fee":"800","pname":"azad","pcontact":"01521470368","email":"azad.ece13@gmail.com","address":"Dhaka","dates":"2018-07-27","tyme":"11.00am","payment":"bKask"},
+{"booking_id":"14","dname":"Dr. Majedul Islam","userid":"1008","dcontact":"01734761999","expertise":"Medicine","fee":"800","pname":"patient","pcontact":"contact","email":"mamun@gmail.com","address":"Dinajpur","dates":"2018-07-28","tyme":"03.00pm","payment":"bKask"},
+{"booking_id":"15","dname":"Md. Azharul Islam","userid":"1009","dcontact":"01521470368","expertise":"Cardiologist","fee":"800","pname":"mamun","pcontact":"01521470368","email":"mamun@gmail.com","address":"Rangpur","dates":"2018-07-26","tyme":"11.00am","payment":"Rocket"},
+{"booking_id":"16","dname":"Dr. Badol Miah","userid":"1004","dcontact":"01949389983","expertise":"Kedney","fee":"700","pname":"mamun","pcontact":"01521470368","email":"mamun@gmail.com","address":"Dinajpur","dates":"2018-07-20","tyme":"11.00am","payment":"bKask"},
+{"booking_id":"17","dname":"Dr. Azharul Islam","userid":"1002","dcontact":"01764761919","expertise":"Medicine","fee":"500","pname":"azad","pcontact":"01521470368","email":"azad.ece13@gmail.com","address":"Rangpur","dates":"2018-07-26","tyme":"03.00pm","payment":"bKask"},
+{"booking_id":"18","dname":"Dr. Badol Miah","userid":"1004","dcontact":"01949389983","expertise":"Kedney","fee":"700","pname":"dezazad","pcontact":"dezazad","email":"devloperazad.hstu@gmai","address":"Dinajpur","dates":"2018-07-07","tyme":"11.00am","payment":"Rocket"},
+{"booking_id":"19","dname":"Dr. Rashid","userid":"1003","dcontact":"01521670654","expertise":"Medicine","fee":"600","pname":"","pcontact":"","email":"developerazad.hstu@gmail.com","address":"","dates":"2018-07-15","tyme":"11.00am","payment":"bKask"},
+{"booking_id":"20","dname":"Dr. Abdul Kader","userid":"1001","dcontact":"01734761999","expertise":"Heart","fee":"500","pname":"Sadat","pcontact":"12333","email":"sadat@gmail.com","address":"Dhaka","dates":"2024-03-20","tyme":"11.00am","payment":"bKask"},
+{"booking_id":"21","dname":"Dr. Majedul Islam","userid":"1006","dcontact":"01734761999","expertise":"Medicine","fee":"800","pname":"Sadat","pcontact":"12333","email":"sadat@gmail.com","address":"Dhaka","dates":"2024-03-28","tyme":"03.00pm","payment":"Rocket"},
+{"booking_id":"22","dname":"Md. Azharul Islam","userid":"1012","dcontact":"01764761919","expertise":"Neurologist","fee":"800","pname":"Sadat","pcontact":"12333","email":"sadat@gmail.com","address":"Dhaka","dates":"2024-03-27","tyme":"03.00pm","payment":"Rocket"}
+]
+}
+,{"type":"table","name":"category","database":"projectmms","data":
+[
+{"id":"1","cat":"Medicine"},
+{"id":"2","cat":"Heart"},
+{"id":"3","cat":"Bone"},
+{"id":"4","cat":"Kedney"},
+{"id":"5","cat":"Cardiologist"},
+{"id":"6","cat":"Plastic Surgeon"},
+{"id":"7","cat":"General Physician"},
+{"id":"8","cat":"Neurologist"}
+]
+}
+,{"type":"table","name":"contact","database":"projectmms","data":
+[
+{"contact_id":"1","firstname":"Azharul","lastname":"Islam","email":"azad.ece13@gmai","comment":"My comment is getting successful."},
+{"contact_id":"2","firstname":"zahid","lastname":"hasan","email":"hasan@gmail.com","comment":"good job"}
+]
+}
+,{"type":"table","name":"doctor","database":"projectmms","data":
+[
+{"doc_id":"1","doctor_id":"2","name":"Dr. Abdul Kader","address":"Dhaka","contact":"01734761999","email":"kader@gmail.com","expertise":"Heart","id":"2","fee":"500","userid":"1001","password":"123","pic":""},
+{"doc_id":"2","doctor_id":"1","name":"Dr. Azharul Islam","address":"Dinajpur","contact":"01764761919","email":"azad.ece13@gmail.com","expertise":"Medicine","id":"1","fee":"500","userid":"1002","password":"123","pic":"doctor5.jpg"},
+{"doc_id":"3","doctor_id":"1","name":"Dr. Rashid","address":"Rangpur","contact":"01521670654","email":"rashid@gmail.com","expertise":"Medicine","id":"1","fee":"600","userid":"1003","password":"123","pic":"doctor1.jpg"},
+{"doc_id":"4","doctor_id":"4","name":"Dr. Badol Miah","address":"Dhaka","contact":"01949389983","email":"badol@gmail.com","expertise":"Kedney","id":"4","fee":"700","userid":"1004","password":"123","pic":"doctor5.jpg"},
+{"doc_id":"5","doctor_id":"5","name":"Dr. Nur Mohammad","address":"Dhaka","contact":"01674546856","email":"nur@gmail.com","expertise":"Cardiologist","id":"5","fee":"700","userid":"1005","password":"123","pic":"itsme.jpg"},
+{"doc_id":"6","doctor_id":"1","name":"Dr. Majedul Islam","address":"Dhaka","contact":"01734761999","email":"majedul@gmail.com","expertise":"Medicine","id":"1","fee":"800","userid":"1006","password":"123","pic":"itzme.jpg"},
+{"doc_id":"7","doctor_id":"8","name":"Dr. Rafiq Ahmed","address":"Rajsahi","contact":"01674546563","email":"rafiq@gmail.com","expertise":"Neurologist","id":"8","fee":"600","userid":"1007","password":"123","pic":"doctor5.jpg"},
+{"doc_id":"8","doctor_id":"3","name":"Dr. Sajedul Islam","address":"Rangpur","contact":"01521768936","email":"sajedul@gmail.com","expertise":"Bone","id":"3","fee":"700","userid":"1008","password":"123","pic":"doctor1.jpg"},
+{"doc_id":"9","doctor_id":"6","name":"Dr. Abul Kalam","address":"Pabna","contact":"+8801976564536","email":"abulkalam@gmail.com","expertise":"Plastic Surgeon","id":"6","fee":"500","userid":"1009","password":"123","pic":"doctor5.jpg"},
+{"doc_id":"11","doctor_id":"11","name":"Md. Azharul Islam","address":"Dhaka","contact":"01764761919","email":"azad.ece13@gmail.com","expertise":"Neurologist","id":"0","fee":"800","userid":"1012","password":"123","pic":"doctor1.jpg"},
+{"doc_id":"12","doctor_id":"11","name":"Azharul Islam","address":"Dhaka","contact":"01764761919","email":"azad.ece13@gmail.com","expertise":"Heart","id":"0","fee":"800","userid":"1011","password":"123","pic":"doctor5.jpg"},
+{"doc_id":"14","doctor_id":"","name":"Md. Azharul Islam","address":"Dhaka","contact":"01521470368","email":"azad@gmail.com","expertise":"Bone","id":"0","fee":"800","userid":"1016","password":"123","pic":"itsme.jpg"},
+{"doc_id":"16","doctor_id":"","name":"Dr. Azad","address":"Rangpur","contact":"01521470368","email":"azad@gmail.com","expertise":"General Physician","id":"0","fee":"1005","userid":"1013","password":"123","pic":""},
+{"doc_id":"17","doctor_id":"","name":"Md. Azharul Islam","address":"Rangpur","contact":"01764761919","email":"hasan@gmail.com","expertise":"Neurologist","id":"0","fee":"600","userid":"1015","password":"123","pic":"header3.jpg"}
+]
+}
+,{"type":"table","name":"donation","database":"projectmms","data":
+[
+{"donation_id":"1","name":"Mazhar","address":"khulna","unit":"1","dates":"2017-11-07","email":"abul@gmail.com"},
+{"donation_id":"2","name":"Mokarrom","address":"Saidpur","unit":"2","dates":"2017-11-11","email":"mamun@gmail.com"},
+{"donation_id":"3","name":"Azad","address":"hstu","unit":"2","dates":"2017-01-21","email":"mamun@gmail.com"},
+{"donation_id":"4","name":"sumaiya","address":"Saidpur","unit":"1","dates":"2017-11-15","email":"azad.ece13@gmail.com"},
+{"donation_id":"5","name":"Al-Mamun","address":"hstu","unit":"1","dates":"2017-12-05","email":"azad.ece13@gmail.com"},
+{"donation_id":"6","name":"Azad","address":"aaa","unit":"2","dates":"2017-12-29","email":"azad.ece13@gmail.com"},
+{"donation_id":"7","name":"Md. Azharul Islam","address":"Dhaka","unit":"2","dates":"2018-05-12","email":"azad.ece13@gmail.com"},
+{"donation_id":"8","name":"Md. Azharul Islam","address":"Dhaka","unit":"1","dates":"2018-05-10","email":"azad.ece13@gmail.com"}
+]
+}
+,{"type":"table","name":"feedback","database":"projectmms","data":
+[
+{"id":"1","email":"azad.tee@gmail.com","feedback":"easy way"},
+{"id":"2","email":"azad.ece13@gmail.com","feedback":"nice getting you"},
+{"id":"3","email":"sadat@gmail.com","feedback":"how to book dr. abc"},
+{"id":"4","email":"sadat@gmail.com","feedback":"hello"}
+]
+}
+,{"type":"table","name":"patient","database":"projectmms","data":
+[
+{"id":"1","name":"Md. Azharul Islam","age":"21","contact":"01746314882","address":"Dinajpur","bgroup":"O+","email":"azad.ece13@gmail.com","password":"1234"},
+{"id":"2","name":"Al-Mamun","age":"22","contact":"01746314882","address":"Saidpur,Rangpur","bgroup":"AB+","email":"mamun@gmail.com","password":"123"},
+{"id":"3","name":"test name","age":"22","contact":"01765674567","address":"Dinajpur","bgroup":"A-","email":"test@gmail.com","password":"123"},
+{"id":"5","name":"developerazad","age":"21","contact":"01764761919","address":"Dhaka","bgroup":"O+","email":"developerazad.hstu@gmail.com","password":"developerazad"},
+{"id":"6","name":"developerazad","age":"22","contact":"01521470368","address":"Dhaka","bgroup":"AB+","email":"developerazad.hstu@gmail.com","password":"1234"},
+{"id":"7","name":"Sadat","age":"23","contact":"0112222","address":"Dhaka","bgroup":"A+","email":"sadat@gmail.com","password":"1234"}
+]
+}
+,{"type":"table","name":"prescription","database":"projectmms","data":
+[
+{"patientID":"10015","patientComplains":"fever","tests":"NA","medicines":"Napa\r\n1+0+1"},
+{"patientID":"11115","patientComplains":"cold","tests":"NA","medicines":"fexo"},
+{"patientID":"11115","patientComplains":"cold","tests":"NA","medicines":"fexo"},
+{"patientID":"sadat@gmail.com","patientComplains":"fever","tests":"NA","medicines":"Napa"},
+{"patientID":"sadat@gmail.com","patientComplains":"Caught cold and fever","tests":"NA","medicines":"Napa 500mg\r\n1+0+1\r\nSergel 20mg\r\n1+0+1\r\nFexo 120mg\r\n0+0+1"},
+{"patientID":"sadat@gmail.com","patientComplains":"fever","tests":"NA","medicines":"NAPA"}
+]
+}
+,{"type":"table","name":"registration","database":"projectmms","data":
+[
+{"donar_id":"86","username":"Syeda Musharrat","gender":"female","age":"21","contact":"01712292009","type":"Blood Donor","city":"Dinajpur","address":"Ghashipara","bgroup":"O+","dates":"0000-00-00","email":"musharratnashrum.mn@gmail.com","password":"123","pic":""},
+{"donar_id":"87","username":"Hussain Al Mortuza","gender":"male","age":"21","contact":"01706742647","type":"Blood Donor","city":"Rangpur","address":"Dhap","bgroup":"B+","dates":"0000-00-00","email":"mortuza1202089@gmail.com","password":"123","pic":""},
+{"donar_id":"88","username":"Rumana Akter Ela","gender":"female","age":"21","contact":"01734301217","type":"Blood Donor","city":"Dinajpur","address":"Ramnagar","bgroup":"O+","dates":"0000-00-00","email":"elahstu@gmail.com","password":"123","pic":""},
+{"donar_id":"89","username":"Miftahul Jannat","gender":"female","age":"22","contact":"01734472278","type":"Blood Seeker","city":"Panchagarh","address":"Panchagarh","bgroup":"O+","dates":"0000-00-00","email":"mj.nure@gmail.com","password":"123","pic":""},
+{"donar_id":"90","username":"Farjana Lina","gender":"female","age":"21","contact":"01773438430","type":"Blood Seeker","city":"Dinajpur","address":"Basherhat","bgroup":"O+","dates":"0000-00-00","email":"lina73farjana@gmail.com","password":"123","pic":""},
+{"donar_id":"91","username":"Dristy Das","gender":"female","age":"21","contact":"01795660520","type":"Blood Donor","city":"Dinajpur","address":"Kalitola","bgroup":"B+","dates":"0000-00-00","email":"dristydas.hstu@gmail.com","password":"123","pic":""},
+{"donar_id":"92","username":"Hamidul Islam","gender":"male","age":"21","contact":"01751318963","type":"Blood Seeker","city":"Kurigram","address":"Razarhat","bgroup":"O+","dates":"0000-00-00","email":"imdhamidul13@gmail.com","password":"123","pic":""},
+{"donar_id":"93","username":"Sirazum Monira","gender":"female","age":"22","contact":"01757950876","type":"Blood Donor","city":"Dinajpur","address":"Doshmail","bgroup":"O+","dates":"0000-00-00","email":"sirazum79@gmail.com","password":"123","pic":""},
+{"donar_id":"94","username":"Atiya Sanjida Etu","gender":"female","age":"20","contact":"01836022493","type":"Blood Seeker","city":"Dinajpur","address":"Nimtola","bgroup":"B+","dates":"0000-00-00","email":"atiyasanjida42@gmail.com","password":"123","pic":""},
+{"donar_id":"95","username":"Sazzad Hossain","gender":"male","age":"21","contact":"017738783899","type":"Blood Donor","city":"Dinajpur","address":"Birol","bgroup":"O+","dates":"0000-00-00","email":"sazzad1002@gmail.com","password":"123","pic":""},
+{"donar_id":"96","username":"S.M. Janardan Roy","gender":"male","age":"21","contact":"01738082848","type":"Blood Donor","city":"Thakurgaon","address":"Setabgonj","bgroup":"A+","dates":"0000-00-00","email":"janardanroyhstu2013@gmail.com","password":"123","pic":""},
+{"donar_id":"97","username":"Shafiqul Islam ","gender":"male","age":"21","contact":"01722710298","type":"Blood Donor","city":"Panchagarh","address":"Debigonj","bgroup":"O+","dates":"0000-00-00","email":"sujon.hstu.tee013@gmail.com","password":"123","pic":""},
+{"donar_id":"98","username":"Uswatun Hasana ","gender":"female","age":"22","contact":"01747125554","type":"Blood Donor","city":"Dinajpur","address":"Paharpur","bgroup":"A+","dates":"0000-00-00","email":"uswatun.h5554@gmail.com","password":"123","pic":""},
+{"donar_id":"99","username":"Keshob Ray","gender":"male","age":"21","contact":"01761023408","type":"Blood Donor","city":"Rangpur","address":"Keranir hat","bgroup":"B+","dates":"0000-00-00","email":"keshobrayhstu91@gmail.com","password":"123","pic":""},
+{"donar_id":"100","username":"Md. Elias Hossain","gender":"male","age":"21","contact":"01751119073","type":"Blood Donor","city":"Dinajpur","address":"Kosba,Pulhat","bgroup":"B+","dates":"0000-00-00","email":"md.eliashossain13@gmail.com","password":"123","pic":""},
+{"donar_id":"101","username":"Md. Azharul Islam","gender":"male","age":"21","contact":"01764761919","type":"Blood Donor","city":"Nilphamari","address":"saidpur","bgroup":"O+","dates":"0000-00-00","email":"azad.ece13@gmail.com","password":"123","pic":""},
+{"donar_id":"102","username":"Maruf Hasan Piko","gender":"male","age":"21","contact":"01737366366","type":"Blood Donor","city":"Rangpur","address":"Dhap Kakolilane","bgroup":"O+","dates":"0000-00-00","email":"pikohasan73@gmail.com","password":"123","pic":""},
+{"donar_id":"103","username":"Fatema Farin","gender":"female","age":"21","contact":"01714442319","type":"Blood Seeker","city":"Jessore","address":"West Barandipara","bgroup":"O+","dates":"0000-00-00","email":"fatema.farin13@gmail.com","password":"123","pic":""},
+{"donar_id":"104","username":"Fahim Ahmed ","gender":"male","age":"21","contact":"01765676686","type":"Blood Seeker","city":"Kushtia","address":"Bheramara","bgroup":"O-","dates":"0000-00-00","email":"fahimahmed100@gmail.com","password":"123","pic":""},
+{"donar_id":"105","username":"Mokarram Hossain","gender":"male","age":"22","contact":"01723155254","type":"Blood Donor","city":"Nilphamari","address":"Saidpur","bgroup":"A+","dates":"0000-00-00","email":"connect.with.me254@gmail.com","password":"123","pic":""},
+{"donar_id":"106","username":"Arabi Mohammad ","gender":"male","age":"21","contact":"01742827093","type":"Blood Donor","city":"Kurigram","address":"Kurigram","bgroup":"B+","dates":"0000-00-00","email":"didar247@gmail.com","password":"123","pic":""},
+{"donar_id":"107","username":"Ajmary Jahan Riny","gender":"female","age":"21","contact":"01772974973","type":"Blood Donor","city":"Dinajpur","address":"Uttor Faridpur","bgroup":"O+","dates":"0000-00-00","email":"ajmaryjahan@gmail.com","password":"123","pic":""},
+{"donar_id":"108","username":"Resmi Rashid","gender":"female","age":"21","contact":"01762946949","type":"Blood Donor","city":"Lalmonirhat","address":"Mission more","bgroup":"B+","dates":"0000-00-00","email":"resmi.tee13@gmail.com","password":"123","pic":""},
+{"donar_id":"109","username":"Sazia Haider","gender":"female","age":"21","contact":"01705808656","type":"Blood Donor","city":"Dinajpur","address":"Newtown 3","bgroup":"B+","dates":"0000-00-00","email":"saziahaidersizu@gmail.com","password":"123","pic":""},
+{"donar_id":"110","username":"Shohel Rana","gender":"male","age":"21","contact":"01761273269","type":"Blood Donor","city":"Thakurgaon","address":"Pirgonj","bgroup":"A+","dates":"0000-00-00","email":"shohelhstu117@gmail.com","password":"123","pic":""},
+{"donar_id":"111","username":"Al-Mamun","gender":"male","age":"22","contact":"01746314882","type":"Blood Donor","city":"Nilphamari","address":"Saidpur","bgroup":"AB+","dates":"0000-00-00","email":"mamunhstu13@gmail.com","password":"123","pic":""},
+{"donar_id":"112","username":"Babul Hossain","gender":"male","age":"21","contact":"01738421785","type":"Blood Donor","city":"Chapainawabganj","address":"Shibgonj","bgroup":"B+","dates":"0000-00-00","email":"babul.hstu@gmail.com","password":"123","pic":""},
+{"donar_id":"113","username":"Aysha Siddika Shova","gender":"female","age":"21","contact":"01793965152","type":"Blood Seeker","city":"Dinajpur","address":"Munshipara","bgroup":"B+","dates":"0000-00-00","email":"siddika.shova5152@gmail.com","password":"123","pic":""},
+{"donar_id":"114","username":"Kanak Borman","gender":"male","age":"21","contact":"01758964988","type":"Blood Donor","city":"Bogra","address":"Adamdighi","bgroup":"A+","dates":"0000-00-00","email":"kanakborman@gmail.com","password":"123","pic":""},
+{"donar_id":"115","username":"Mukesh Chaudhary","gender":"male","age":"21","contact":"01794953611","type":"Blood Donor","city":"Dinajpur","address":"HSTU","bgroup":"B+","dates":"0000-00-00","email":"mukesh101mak@gmail.com","password":"123","pic":""},
+{"donar_id":"116","username":"username","gender":"female","age":"21","contact":"3","type":"Blood Seeker","city":"Chapainawabganj","address":"hstu","bgroup":"O-","dates":"2017-11-29","email":"azad.ece13@gmail.com","password":"123","pic":""},
+{"donar_id":"117","username":"developerazad","gender":"male","age":"21","contact":"01521470368","type":"Blood Donor","city":"Dinajpur","address":"Dhaka","bgroup":"O-","dates":"0000-00-00","email":"developerazad.hstu@gmail.com","password":"111","pic":""},
+{"donar_id":"121","username":"admin","gender":"","age":"","contact":"01764761919","type":"","city":"Dinajpur","address":"","bgroup":"O+","dates":"0000-00-00","email":"admin@gmail.com","password":"123","pic":""},
+{"donar_id":"122","username":"admin","gender":"","age":"","contact":"","type":"","city":"","address":"","bgroup":"","dates":"0000-00-00","email":"","password":"0","pic":""}
+]
+}
+,{"type":"table","name":"requestes","database":"projectmms","data":
+[
+{"reg_id":"3","name":"admin","gender":"male","age":"33","mobile":"01764761919","bgroup":"","email":"g@gmail.com","reqdate":"2022-01-19","detail":"save life"},
+{"reg_id":"4","name":"admin","gender":"male","age":"33","mobile":"01764761919","bgroup":"","email":"g@gmail.com","reqdate":"2022-01-19","detail":"save life"},
+{"reg_id":"5","name":"sanaaa","gender":"female","age":"21","mobile":"017777777","bgroup":"A-","email":"g@gmail.com","reqdate":"2017-12-01","detail":"save life"},
+{"reg_id":"6","name":"sanaaa","gender":"female","age":"21","mobile":"017777777","bgroup":"A-","email":"g@gmail.com","reqdate":"2017-12-01","detail":"save life"},
+{"reg_id":"7","name":"sanaaa","gender":"female","age":"21","mobile":"017777777","bgroup":"A-","email":"g@gmail.com","reqdate":"2017-12-01","detail":"save life"},
+{"reg_id":"8","name":"sanaaa","gender":"female","age":"21","mobile":"017777777","bgroup":"A-","email":"g@gmail.com","reqdate":"2017-12-01","detail":"save life"},
+{"reg_id":"9","name":"mamun","gender":"male","age":"22","mobile":"01777777","bgroup":"AB+","email":"mamun@gmail.com","reqdate":"0000-00-00","detail":""}
+]
+}
+,{"type":"table","name":"user","database":"projectmms","data":
+[
+{"username":"admin","password":"admin","type":"admin"},
+{"username":"adnim","password":"13020944","type":"admin"}
+]
+}
+,{"type":"table","name":"users","database":"projectmms","data":
+[
+{"username":"adnim","password":"13020944","type":"admin"}
+]
+}
+]
